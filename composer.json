@@ -27,8 +27,6 @@
         "authorizenet/authorizenet": "^1.8",
         "crevillo/payum-redsys": "^1",
         "doctrine/doctrine-bundle": "~1.4",
-        "doctrine/mongodb-odm": "^1",
-        "doctrine/mongodb-odm-bundle": "^3",
         "doctrine/orm": "^2.5",
         "fp/klarna-invoice": "^0.1",
         "incenteev/composer-parameter-handler": "~2.0",

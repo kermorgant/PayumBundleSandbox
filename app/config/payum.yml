@@ -8,11 +8,11 @@ payum:
         Acme\PaymentBundle\Entity\AgreementDetails: { doctrine: orm }
         Acme\PaymentBundle\Entity\RecurringPaymentDetails: { doctrine: orm }
 
-        Acme\PaymentBundle\Document\PaymentDetails:
-            doctrine: mongodb
-            extension:
-                gateways:
-                    - paypal_express_checkout_and_doctrine_mongo_odm
+        # Acme\PaymentBundle\Document\PaymentDetails:
+        #     doctrine: mongodb
+        #     extension:
+        #         gateways:
+        #             - paypal_express_checkout_and_doctrine_mongo_odm
 
         Acme\OtherExamplesBundle\Model\Cart:
             extension:
